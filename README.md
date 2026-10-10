@@ -1,4 +1,4 @@
-GksKorea
+GksKorea; https://tanutechlab.github.io/GKSKOREA/
 Welcome to GksKorea — a website dedicated to helping students explore information 
 about the Global Korea Scholarship (GKS) and study opportunities in South Korea.
 
