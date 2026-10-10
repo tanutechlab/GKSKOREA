@@ -1,0 +1,168 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Explore Korean universities, departments and official Global Korea Scholarship resources.">
+  <title>GKS Korea | University Finder</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <nav class="navbar">
+    <a href="#" class="logo">GKS<span>KOREA</span></a>
+    <div class="nav-links">
+      <a href="#universities">Universities</a>
+      <a href="#scholarship">Scholarship</a>
+      <a href="#resources">Official Resources</a>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <div class="hero-content">
+      <span class="eyebrow">YOUR FUTURE STARTS HERE</span>
+      <h1>Study in <span>South Korea.</span></h1>
+      <p>
+        Discover Korean universities, explore academic departments,
+        and start your journey with the Global Korea Scholarship.
+      </p>
+      <div class="hero-buttons">
+        <a href="#universities" class="btn btn-primary">Find Universities ↗</a>
+        <a href="#scholarship" class="btn btn-outline">Explore GKS</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="stats">
+      <article><strong>Nationwide</strong><span>Explore Korean regions</span></article>
+      <article><strong>Smart Search</strong><span>Find universities and subjects</span></article>
+      <article><strong>Official Links</strong><span>Continue your research</span></article>
+    </section>
+
+    <section class="directory section" id="universities">
+      <div class="section-heading">
+        <span class="eyebrow dark">FIND YOUR UNIVERSITY</span>
+        <h2>Explore Korean Universities</h2>
+        <p>Search by university name, city, academic field, or GKS category.</p>
+      </div>
+
+      <div class="search-panel">
+        <div class="form-group search-group">
+          <label for="searchInput">University or department</label>
+          <input id="searchInput" type="search"
+            placeholder="Try engineering, business, KAIST...">
+        </div>
+
+        <div class="form-group">
+          <label for="cityFilter">City / Region</label>
+          <select id="cityFilter">
+            <option value="">All regions</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="trackFilter">GKS category</label>
+          <select id="trackFilter">
+            <option value="">All categories</option>
+            <option value="Type A">Type A</option>
+            <option value="Type B">Type B</option>
+            <option value="Verify">Eligibility to verify</option>
+          </select>
+        </div>
+
+        <button class="btn btn-primary search-button" id="resetButton">
+          Reset
+        </button>
+      </div>
+
+      <div class="results-bar">
+        <p id="resultCount" aria-live="polite">Loading universities...</p>
+        <span>Choose a university to visit its website.</span>
+      </div>
+
+      <div class="university-grid" id="universityGrid"></div>
+
+      <div class="notice">
+        <strong>Important:</strong> This is an independent starter directory.
+        A university's appearance here does not confirm GKS eligibility.
+        Confirm its participation, eligible departments, degree level and
+        application track in the official guidelines for your application year.
+      </div>
+    </section>
+
+    <section class="scholarship section" id="scholarship">
+      <div class="section-heading">
+        <span class="eyebrow dark">ABOUT THE PROGRAM</span>
+        <h2>Global Korea Scholarship</h2>
+        <p>Understand the main study routes before preparing your application.</p>
+      </div>
+
+      <div class="info-grid">
+        <article class="info-card">
+          <div class="info-icon">🎓</div>
+          <h3>GKS Undergraduate</h3>
+          <p>Explore eligible undergraduate and designated associate degree opportunities.</p>
+          <a href="https://www.studyinkorea.go.kr/" target="_blank" rel="noopener noreferrer">Official information ↗</a>
+        </article>
+
+        <article class="info-card">
+          <div class="info-icon">📚</div>
+          <h3>GKS Graduate</h3>
+          <p>Research master's, doctoral and designated research program opportunities.</p>
+          <a href="https://www.studyinkorea.go.kr/" target="_blank" rel="noopener noreferrer">Official information ↗</a>
+        </article>
+
+        <article class="info-card">
+          <div class="info-icon">🌏</div>
+          <h3>Application Tracks</h3>
+          <p>Compare Embassy Track and University Track requirements in the current announcement.</p>
+          <a href="https://www.studyinkorea.go.kr/" target="_blank" rel="noopener noreferrer">Explore GKS ↗</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="resources section" id="resources">
+      <div class="section-heading">
+        <span class="eyebrow dark">TRUST OFFICIAL SOURCES</span>
+        <h2>Scholarship Resources</h2>
+        <p>Check the current notices before choosing a university or submitting documents.</p>
+      </div>
+
+      <div class="resource-list">
+        <a href="https://www.studyinkorea.go.kr/" target="_blank" rel="noopener noreferrer">
+          <span>🇰🇷</span>
+          <span><strong>Study in Korea</strong><small>Official Korean government study portal</small></span>
+          <b>↗</b>
+        </a>
+
+        <a href="https://www.studyinkorea.go.kr/en/plan/gksNoticeRead.do?bbsId=BBSMSTR_000000000461&amp;nttId=4420" target="_blank" rel="noopener noreferrer">
+          <span>📄</span>
+          <span><strong>GKS Graduate Notice</strong><small>Check the annual announcement and attachments</small></span>
+          <b>↗</b>
+        </a>
+
+        <a href="https://www.studyinkorea.go.kr/ko/plan/scholarship.do?tab=gks-tab1" target="_blank" rel="noopener noreferrer">
+          <span>📋</span>
+          <span><strong>GKS Scholarship Information</strong><small>Scholarship information and application guidance</small></span>
+          <b>↗</b>
+        </a>
+      </div>
+
+      <p class="disclaimer">
+        GKS Korea Finder is an independent student project and is not affiliated
+        with NIIED or the Korean government.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <a href="#" class="logo">GKS<span>KOREA</span></a>
+    <p>Explore. Learn. Prepare for your future in Korea.</p>
+    <small>© <span id="year"></span> GKS Korea Finder</small>
+  </footer>
+
+</body>
+</html>
