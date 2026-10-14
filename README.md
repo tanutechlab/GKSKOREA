@@ -1,6 +1,3 @@
-GksKorea; https://tanutechlab.github.io/GKSKOREA/
-Welcome to GksKorea — a website dedicated to helping students explore information 
-about the Global Korea Scholarship (GKS) and study opportunities in South Korea.
 
 🌟 About the Project
 GksKorea is a web project designed to provide students with useful information about studying in South Korea,
@@ -8,10 +5,15 @@ scholarship opportunities, application guidance, and resources for aspiring inte
 
 ✨ Features;
 Information about the Global Korea Scholarship (GKS)
+
 🎓 Guidance for students interested in studying in South Korea
+
 📚 Scholarship and application resources
+
 🌐 Simple and user-friendly interface
+
 📱 Responsive design for different screen sizes
+
 
 🛠️ Technologies Used;
 HTML
